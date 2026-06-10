@@ -47,4 +47,4 @@ jobs:
       - name: Test Docker Image Build
         run: |
           docker build -t test-ml-api:latest .
-          print("Docker build test passed successfully!")
+          echo "Docker build test passed successfully!"
